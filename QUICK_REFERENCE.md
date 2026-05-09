@@ -8,6 +8,13 @@ Repozytorium wiedzy specjalistycznej o zarządzaniu procesem wytwórczym modeli 
 
 | Katalog | Opis | Agent Prompt |
 |---------|------|--------------|
+| **model_lifecycle_guide/** | ★ Model Lifecycle Guide — framework dla DS (po polsku) | — |
+| ├─ 00_guide/ | Główne rozdziały przewodnika (01–11) | — |
+| ├─ 01_supporting_standards/ | Standardy STD-001 do STD-008 | — |
+| ├─ 02_procedures/ | Procedury PROC-001 do PROC-006 | — |
+| ├─ 03_templates/ | Szablony TMPL-001 do TMPL-006 | — |
+| ├─ 04_references/ | Referencje regulacyjne i branżowe | — |
+| └─ 05_working_notes/ | Notatki robocze | — |
 | **01_classic_models/** | Modele klasyczne | |
 | ├─ PD/ | Probability of Default | ✅ |
 | ├─ LGD/ | Loss Given Default | ✅ |
@@ -18,7 +25,7 @@ Repozytorium wiedzy specjalistycznej o zarządzaniu procesem wytwórczym modeli 
 | └─ unsupervised/ | Modele nienadzorowane (clustering, etc.) | ✅ |
 | **03_decision_support/** | Systemy wspomagania decyzji | ✅ |
 | **04_CRM/** | Customer Relationship Management | ✅ |
-| **05_model_lifecycle/** | Governance i lifecycle | ✅ |
+| **05_model_lifecycle/** | Zasoby i wiedza specjalistyczna o lifecycle | ✅ |
 
 ## 📚 Kluczowe Dokumenty
 
@@ -94,6 +101,13 @@ survival, survminer
 
 ## 🚀 Jak Zacząć dla Agenta?
 
+### Dla Model Lifecycle Guide (Data Scientist)
+1. **Otwórz** [`model_lifecycle_guide/README.md`](./model_lifecycle_guide/README.md)
+2. **Przejrzyj STATUS.md** — znajdziesz tam intended scope i ton dokumentu
+3. **Uzupełnij treść** w sekcjach oznaczonych `✍️ [DO UZUPEŁNIENIA]`
+4. **Zachowaj język** — treść po polsku, nazwy plików angielskie
+
+### Dla innych obszarów wiedzy
 1. **Wybierz obszar** (np. `01_classic_models/PD/`)
 2. **Przeczytaj** `AGENT_PROMPT.md`
 3. **Stwórz strukturę**:
