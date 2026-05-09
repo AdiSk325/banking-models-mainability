@@ -111,8 +111,8 @@ Używaj następującego formatu dla specyficznych uwag:
 
 | Wersja | Data | Zmiana | Autor |
 |---|---|---|---|
-| 0.1 | 2026-05-09 | Inicjalna struktura repozytorium | Copilot |
-| 0.5 | 2026-05-09 | Szkielety wszystkich sekcji, treść startowa | Copilot |
+| 0.1 | 2026-05-09 | Inicjalna struktura repozytorium | [do uzupełnienia — właściciel dokumentu] |
+| 0.5 | 2026-05-09 | Szkielety wszystkich sekcji, treść startowa | [do uzupełnienia — właściciel dokumentu] |
 | 1.0 | TBD | Pełna treść merytoryczna, review | TBD |
 
 ---

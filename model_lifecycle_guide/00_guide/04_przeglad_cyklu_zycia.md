@@ -73,7 +73,7 @@ Pełny cykl życia modelu składa się z 13 etapów pogrupowanych w 5 faz:
 | Walidacja | 6–12 tyg. | 4–6 tyg. | 1–2 tyg. |
 | Zatwierdzenie | 2–4 tyg. | 1–2 tyg. | 1 tydzień |
 | Wdrożenie | 4–8 tyg. | 2–4 tyg. | 1–2 tyg. |
-| **Łącznie (dev→prod)** | **~9–16 mies.** | **~4–8 mies.** | **~2–4 mies.** |
+| **Łącznie (dev→prod)** | **~9–16 miesięcy** | **~4–8 miesięcy** | **~2–4 miesiące** |
 
 ---
 
