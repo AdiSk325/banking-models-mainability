@@ -6,6 +6,13 @@ Repository dedykowane gromadzeniu wiedzy specjalistycznej dotyczącej zarządzan
 
 Repozytorium obejmuje kompleksową wiedzę na temat:
 
+### ★ Model Lifecycle Guide (główny framework — po polsku)
+Nadrzędny przewodnik dla Data Scientistów opisujący pełny cykl życia modelu:
+- **Zakres:** Modele regulacyjne · Modele supervised · Modele unsupervised
+- **Przeznaczenie:** Codzienny przewodnik nawigacyjny dla DS oraz framework governance
+- **Język treści:** Polski
+- **Start:** [model_lifecycle_guide/README.md](./model_lifecycle_guide/README.md)
+
 ### 1. Modele Klasyczne (Classic Banking Models)
 - **PD** - Probability of Default (Prawdopodobieństwo Niewykonania Zobowiązania)
 - **LGD** - Loss Given Default (Strata w Przypadku Niewykonania Zobowiązania)
@@ -32,6 +39,15 @@ Repozytorium obejmuje kompleksową wiedzę na temat:
 
 ```
 banking-models-mainability/
+├── model_lifecycle_guide/      # ★ Model Lifecycle Guide — framework dla Data Scientistów
+│   ├── README.md               #   → Zacznij tutaj — nawigacja i opis frameworku
+│   ├── STATUS.md               #   → Roadmap, postęp prac, ton i zakres
+│   ├── 00_guide/               #   Główne rozdziały (11 rozdziałów, po polsku)
+│   ├── 01_supporting_standards/#   Standardy Poziomu 2 (STD-001 do STD-008)
+│   ├── 02_procedures/          #   Procedury Poziomu 3 (PROC-001 do PROC-006)
+│   ├── 03_templates/           #   Szablony Poziomu 4 (TMPL-001 do TMPL-006)
+│   ├── 04_references/          #   Źródła i inspiracje (regulacyjne, akademickie, branżowe)
+│   └── 05_working_notes/       #   Notatki robocze i pytania otwarte
 ├── 01_classic_models/          # Modele klasyczne
 │   ├── PD/                     # Probability of Default
 │   ├── LGD/                    # Loss Given Default
@@ -42,7 +58,7 @@ banking-models-mainability/
 │   └── unsupervised/           # Uczenie nienadzorowane
 ├── 03_decision_support/        # Modele decyzyjne
 ├── 04_CRM/                     # Customer Relationship Management
-└── 05_model_lifecycle/         # Cykl życia modelu
+└── 05_model_lifecycle/         # Zasoby i wiedza specjalistyczna o lifecycle
 ```
 
 ## 🤖 Agent Prompts
@@ -67,6 +83,13 @@ Celem projektu jest stworzenie centralnego repozytorium wiedzy, które:
 
 ## 🚀 Jak Zacząć?
 
+### Dla Data Scientistów (Model Lifecycle Guide)
+1. Otwórz [model_lifecycle_guide/README.md](./model_lifecycle_guide/README.md)
+2. Znajdź swój scenariusz w tabeli nawigacyjnej ("co muszę zrobić")
+3. Przejdź do odpowiedniego rozdziału lub procedury
+4. Skorzystaj z szablonów w `model_lifecycle_guide/03_templates/`
+
+### Dla wiedzy specjalistycznej o modelach
 1. Wybierz interesujący Cię obszar z struktury katalogów
 2. Przeczytaj `AGENT_PROMPT.md` w danym katalogu
 3. Zapoznaj się z dokumentacją i przykładami
