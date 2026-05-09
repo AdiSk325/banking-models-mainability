@@ -2,6 +2,18 @@
 
 Repository dedykowane gromadzeniu wiedzy specjalistycznej dotyczącej zarządzania procesem wytwórczym modeli w bankowości w Polsce.
 
+## 🏛️ Model Lifecycle Guide — Główny Przewodnik
+
+**→ [05_model_lifecycle/guide/MODEL_LIFECYCLE_GUIDE.md](./05_model_lifecycle/guide/MODEL_LIFECYCLE_GUIDE.md)**
+
+Model Lifecycle Guide to **"konstytucja pracy z modelami"** — nadrzędny framework definiujący zasady, etapy, role i wymagania dla wszystkich modeli w organizacji. Obejmuje cztery kategorie modeli:
+- Modele regulacyjne (PD, LGD, IFRS9)
+- Modele statystyczne / scorecard
+- Modele supervised ML (XGBoost, Random Forest)
+- Modele unsupervised ML (clustering, anomaly detection)
+
+---
+
 ## 📋 Zakres Tematyczny
 
 Repozytorium obejmuje kompleksową wiedzę na temat:
@@ -24,9 +36,10 @@ Repozytorium obejmuje kompleksową wiedzę na temat:
 - Modele do zarządzania relacjami z klientami
 - Modele predykcyjne dla segmentacji i retencji
 
-### 5. Cykl Życia Modelu
-- Zarządzanie cyklem życia modeli
-- Model Governance i walidacja
+### 5. Cykl Życia Modelu ← Główny Framework
+- **Model Lifecycle Guide** — konstytucja pracy z modelami
+- Zarządzanie cyklem życia modeli od inicjacji do wycofania
+- Model Governance, walidacja, monitoring, zarządzanie zmianą
 
 ## 🗂️ Struktura Projektu
 
@@ -42,7 +55,12 @@ banking-models-mainability/
 │   └── unsupervised/           # Uczenie nienadzorowane
 ├── 03_decision_support/        # Modele decyzyjne
 ├── 04_CRM/                     # Customer Relationship Management
-└── 05_model_lifecycle/         # Cykl życia modelu
+└── 05_model_lifecycle/         # Cykl życia modelu — Model Lifecycle Guide
+    ├── guide/                  # Główny przewodnik (zacznij tutaj)
+    ├── standards/              # Standardy szczegółowe
+    ├── procedures/             # Procedury
+    ├── templates/              # Szablony i narzędzia
+    └── references/             # Kolekcja referencji regulacyjnych i branżowych
 ```
 
 ## 🤖 Agent Prompts
